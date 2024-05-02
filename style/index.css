@@ -9,7 +9,9 @@ footer {
 }
 footer p,footer a {
     font-size: 1.3em;
+    color: white;
+    text-decoration: none;
 }
-html {
+body {
     margin:0px;
 }
