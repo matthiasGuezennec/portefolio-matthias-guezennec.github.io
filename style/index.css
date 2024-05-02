@@ -10,3 +10,6 @@ footer {
 footer, p {
     font-size: 2em;
 }
+html {
+    margin:0px;
+}
