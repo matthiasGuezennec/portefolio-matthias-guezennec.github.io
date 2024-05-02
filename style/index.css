@@ -7,7 +7,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-footer, p {
+footer, p a {
     font-size: 1.3em;
 }
 html {
