@@ -82,13 +82,13 @@
   }
   
   /* Projects Section */
-  #projects {
+  #projects, #experiences{
     padding: 60px 20px;
     background-color: #e1f5fe;
     text-align: center;
   }
   
-  #projects h2 {
+  #projects h2 ,#experiences h2{
     font-size: 2.5em;
     margin-bottom: 30px;
   }
