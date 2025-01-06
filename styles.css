@@ -25,7 +25,6 @@
     background-color: #1a1a1a;
     color: white;
     padding: 20px;
-    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -178,3 +177,37 @@
     margin-top: 60px;
   }
   
+.site {
+  min-height: 79.1vh;
+}
+
+
+#project-detail {
+  background-color: #fff;  /* Fond blanc */
+  border-radius: 8px;  /* Coins arrondis */
+  padding: 20px;  /* Espacement intérieur */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ombre douce pour l'effet de profondeur */
+  margin: 20px auto;  /* Centrer la section */
+  max-width: 800px;  /* Largeur maximale de la section */
+  line-height: 1.6;  /* Espacement entre les lignes de texte */
+}
+
+#project-title {
+  font-size: 2rem;  /* Taille de police pour le titre */
+  color: #333;  /* Couleur sombre pour le titre */
+  font-weight: 600;  /* Gras pour le titre */
+  margin-bottom: 10px;  /* Espace sous le titre */
+}
+
+#project-description {
+  font-size: 1.1rem;  /* Taille de police du texte */
+  color: #555;  /* Couleur gris clair pour le texte */
+  margin-top: 10px;  /* Espace au-dessus de la description */
+  text-align: justify;  /* Justification du texte */
+  padding-left: 15px;  /* Ajoute un léger retrait à gauche pour le texte */
+  padding-right: 15px;  /* Ajoute un léger retrait à droite pour le texte */
+}
+
+#project-detail p {
+  margin-top: 15px;  /* Marge au-dessus des paragraphes pour espacement */
+}
