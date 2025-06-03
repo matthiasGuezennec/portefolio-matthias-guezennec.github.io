@@ -1,0 +1,135 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff4081;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(45deg, #ff4081, #29b6f6);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  margin-top: 80px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Experiences et Projects */
+#projects, #experiences {
+  padding: 60px 20px;
+  background-color: #e1f5fe;
+  text-align: center;
+}
+
+#projects h2, #experiences h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+  color: #29b6f6;
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.site {
+  min-height: 79.1vh;
+}
