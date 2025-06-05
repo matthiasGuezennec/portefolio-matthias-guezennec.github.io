@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Détails du projet - GUÉZENNEC LOVITON Matthias</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/exp.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,52 +24,26 @@
   </header>
 <br>
   <section id="project-detail">
-    <h2 id="project-title"></h2><br>
+    <h1 id="project-title"></h1><br><br>
     <p id="project-description"></p>
   </section>
 </div>
-  <footer>
-    <p>
-        © 2025 Portfolio<br>
-        matthias.guezennec-loviton@universite-paris-saclay.fr<br>
-        téléphone : +33.6.99.96.28.19<br>
-        <a href="https://www.google.fr/maps/place/4+All.+de+Chasse,+91160+Saulx-les-Chartreux/@48.6739058,2.2529292,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5d78c42abef2b:0xabc57d97b7737913!8m2!3d48.6739023!4d2.2555041!16s%2Fg%2F11c19w3k51?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D">
-            4 Allée de chasse Saulx les Chartreux 91160</a><br>
-    </p>
-  </footer>
 
-  <script>
-    // Tableau contenant les descriptions des projets
-    const projects = [
-      {
-        title: "Structure de gestion de données d'une pizzeria",
-        description: "Ce projet consistait à développer une structure de gestion de données pour une pizzeria. L'objectif était de créer un système pour gérer les commandes, les clients, les menus, et les paiements de manière fluide et efficace avec deux sites, un pour les commandes en ligne des clients et un pour l'administrateur du contenu du site, et deux application Java, une mobile pour le livreur et une pour afficher les commandes au pizzaiolo. Utilisation de technologies telles que PHP, Java, MySQL, et un design responsive pour s'assurer que l'application soit accessible à tout moment sur toutes les plateformes."
-      },
-      {
-        title: "Création d'un jeu vidéo éducatif pour les mathématiques",
-        description: "Le jeu vidéo créé avait pour but d'apprendre les mathématiques de manière interactive et ludique. En utilisant Unity et C#, ce jeu a été conçu pour être accessible à un public jeune et scolaire. Il permet aux joueurs de résoudre des problèmes mathématiques tout en jouant sur différentes difficultées. "
-      },
-      {
-        title: "Site de streaming de Bridge pour la FFB",
-        description: "Ce projet impliquait le développement d'une plateforme de streaming en direct pour la Fédération Française de Bridge (FFB). L'objectif était de permettre aux joueurs et spectateurs de suivre les compétitions de bridge en temps réel, avec des outils interactifs pour suivre les parties et analyser les mains jouées avec en plus un guide qui peut expliquer au joueurs moins expérimentés les actions faites en directe. Le site utilise des technologies modernes telles que Python, YOLO, OpenCV, Roboflow, Ultralytics, Django, openAi, JavaScript, un serveur o2switch et un flux de streaming en direct."
-      }
-    ];
+<footer>
+  <p>
+    © 2025 Portfolio<br />
+    matthias.guezennec-loviton@universite-paris-saclay.fr ou
+    matt.guezennec@gmail.com<br />
+    téléphone : +33.6.99.96.28.19<br />
+    <a
+      href="https://www.google.fr/maps/place/91160+Saulx-les-Chartreux/@48.6868965,2.244124,14z/data=!3m1!4b1!4m6!3m5!1s0x47e5d81d4ad99c3f:0x40b82c3688b40e0!8m2!3d48.686895!4d2.264733!16s%2Fm%2F03cnq83?entry=ttu&g_ep=EgoyMDI1MDYwMS4wIKXMDSoASAFQAw%3D%3D"
+    >
+      Saulx les Chartreux 91160</a
+    ><br />
+  </p>
+</footer>
 
-    // Fonction pour récupérer l'ID de l'URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const projectId = parseInt(urlParams.get('id'));
-
-    // Vérifier si l'ID est valide et afficher le projet correspondant
-    if (!isNaN(projectId) && projectId >= 0 && projectId < projects.length) {
-      const project = projects[projectId];
-      document.getElementById('project-title').textContent = project.title;
-      document.getElementById('project-description').textContent = project.description;
-    } else {
-      // Si l'ID est invalide, afficher un message d'erreur
-      document.getElementById('project-title').textContent = "Projet non trouvé";
-      document.getElementById('project-description').textContent = "Désolé, ce projet n'existe pas ou il n'est pas encore disponible.";
-    }
-  </script>
+  <script src="script.js"></script>
 
 </body>
 </html>
