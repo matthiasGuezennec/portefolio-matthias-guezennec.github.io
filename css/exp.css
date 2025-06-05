@@ -86,3 +86,19 @@ footer {
   margin: auto;
   border-radius: 10px; 
 }
+
+
+/* bouton de fermeture des détails du projet / stage */
+.close-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #1a1a1a;
+  cursor: pointer;
+  z-index: 1000;
+}
+.close-btn:hover {
+  color: red;
+}

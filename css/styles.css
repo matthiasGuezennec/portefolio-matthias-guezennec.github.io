@@ -75,14 +75,14 @@ nav ul li a:hover {
 
 
 /* Experiences et Projects */
-#projects, #experiences {
+#projects, #experiences, #skills {
   padding: 60px 60px;
   background-color: #e1f5fe;
 }
-#projects {
+#projects, #skills{
   text-align: center;
 }
-#projects h2, #experiences h2 {
+#projects h2, #experiences h2, #skills h2 {
   font-size: 2.5em;
   margin-bottom: 30px;
 }
@@ -122,7 +122,6 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
-  margin-top: 60px;
 }
 
 .site {
